@@ -19,6 +19,8 @@ public class JhBoard {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private String title;            //거래처 코드 앞에서 와 같이 할것
 
     private String content;
